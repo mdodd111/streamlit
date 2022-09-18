@@ -323,8 +323,8 @@ with tab3:
 
     fig_tree = px.treemap(benchmark_df, path=['New_ICB_Industry_Name', 'Code'], values='Weight', color='Return', 
                           color_continuous_midpoint=0, color_continuous_scale='RdYlGn',  
-                          hover_data=['Name', 'Return'],)
-    fig_tree.update_traces(hovertemplate='Name: %{customdata[0]} <br>Return: %{color:.2%}')
+                          hover_data=['Name', 'Return', 'Weight'],)
+    fig_tree.update_traces(hovertemplate='Name: %{customdata[0]} <br>Return: %{color:.2%} <br>Weight: %{value:.2%}')
 
     st.plotly_chart(fig_tree, use_container_width=True)
 
