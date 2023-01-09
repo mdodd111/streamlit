@@ -66,20 +66,20 @@ subsectors = ['JS1512T', 'JS2011T', 'JS2013T', 'JS3011T', 'JS3031T', 'JS4021T', 
 
 #Index Constituents
 top40 = ['ABG', 'AGL', 'AMS', 'ANG', 'ANH', 'APN', 'BHG', 'BID', 'BTI', 'BVT', 'CFR', 'CLS', 'CPI', 'DSY', 'EXX', 'FSR', 'GFI', 'GLN', 'GRT', 'IMP', 'INL', 'INP', 'MCG', 'MNP', 'MRP', 'MTN', 'NED', 'NPH', 'NPN', 'NRP', 'OMU', 'PRX', 'REM', 'RNI', 'SBK', 'SHP', 'SLM', 'SOL', 'SSW', 'VOD', 'WHL']
-midcap = ['APN', 'ARI', 'AVI', 'BAW', 'BVT', 'BYI', 'CCO', 'CLS', 'CML', 'DCP', 'DGH', 'EXX', 'FFA', 'FFB', 'GRT', 'HAR', 'HMN', 'INL', 'INP', 'ITE', 'LHC', 'MCG', 'MEI', 'MKR', 'MRP', 'MTM', 'N91', 'NED', 'NRP', 'NTC', 'NY1', 'OMU', 'PIK', 'PPH', 'PSG', 'QLT', 'RBP', 'RDF', 'REM', 'RES', 'RMI', 'RNI', 'SAP', 'SNT', 'SPP', 'SRE', 'TBS', 'TCP', 'TFG', 'TKG', 'TRU', 'TXT', 'WHL']
-smallcap = ['ACL', 'ADH', 'AEL', 'AFE', 'AFH', 'AFT', 'AIL', 'AIP', 'ARL', 'ATT', 'BAT', 'BLU', 'CLH', 'COH', 'CSB', 'DRD', 'DTC', 'EMI', 'EQU', 'FBR', 'FTB', 'GND', 'HCI', 'HDC', 'HYP', 'IPF', 'JSE', 'KAP', 'KRO', 'KST', 'L2D', 'LBR', 'LTE', 'MLI', 'MSM', 'MSP', 'MTA', 'MTH', 'MUR', 'OCE', 'OMN', 'PAN', 'PPC', 'RBX', 'RFG', 'RLO', 'SAC', 'SNH', 'SPG', 'SSS', 'SSU', 'SUI', 'TGA', 'THA', 'TSG', 'VKE', 'WBO', 'ZED']
+midcap = ['APN', 'ARI', 'AVI', 'BAW', 'BVT', 'BYI', 'CCO', 'CLS', 'DCP', 'DGH', 'EXX', 'FFA', 'FFB', 'GRT', 'HAR', 'HMN', 'INL', 'INP', 'ITE', 'LHC', 'MCG', 'MEI', 'MKR', 'MRP', 'MTM', 'N91', 'NED', 'NPH', 'NRP', 'NTC', 'NY1', 'OMU', 'OUT', 'PIK', 'PPH', 'QLT', 'RBP', 'RDF', 'REM', 'RES', 'RNI', 'SAP', 'SNT', 'SPP', 'SRE', 'TBS', 'TCP', 'TFG', 'TGA', 'TKG', 'TRU', 'TXT', 'WHL', 'ZZD']
+smallcap = ['ACL', 'ADH', 'AEL', 'AFE', 'AFH', 'AFT', 'AIL', 'AIP', 'ARL', 'ATT', 'BAT', 'BLU', 'CML', 'COH', 'CSB', 'DRD', 'DTC', 'EMI', 'EQU', 'FBR', 'FTB', 'GND', 'HCI', 'HDC', 'HYP', 'IPF', 'JSE', 'KAP', 'KRO', 'KST', 'L2D', 'LBR', 'LTE', 'MLI', 'MSP', 'MTA', 'MTH', 'MUR', 'OCE', 'OMN', 'PAN', 'PPC', 'RBX', 'RFG', 'RLO', 'SAC', 'SNH', 'SPG', 'SSS', 'SSU', 'SUI', 'THA', 'TSG', 'VKE', 'WBO']
 resi10 = ['AGL', 'AMS', 'ANG', 'BHG', 'GFI', 'GLN', 'IMP', 'NPH', 'SOL', 'SSW']
-indi25 = ['ANH', 'APN', 'AVI', 'BAW', 'BID', 'BTI', 'BVT', 'CFR', 'CLS', 'LHC', 'MCG', 'MEI', 'MNP', 'MRP', 'MTN', 'NPN', 'PPH', 'PRX', 'SHP', 'SPP', 'TBS', 'TFG', 'TRU', 'VOD', 'WHL']
-fini15 = ['ABG', 'CPI', 'DSY', 'FSR', 'GRT', 'INL', 'INP', 'NED', 'NRP', 'OMU', 'QLT', 'REM', 'RMI', 'RNI', 'SBK', 'SLM']
+indi25 = ['ANH', 'APN', 'AVI', 'BID', 'BTI', 'BVT', 'CFR', 'CLS', 'DGH', 'LHC', 'MCG', 'MEI', 'MNP', 'MRP', 'MTN', 'NPN', 'PPH', 'PRX', 'SHP', 'SPP', 'TBS', 'TFG', 'TRU', 'VOD', 'WHL']
+fini15 = ['ABG', 'CPI', 'DSY', 'FSR', 'GRT', 'INL', 'INP', 'NED', 'NRP', 'OMU', 'OUT', 'RDF', 'REM', 'RNI', 'SBK', 'SLM']
 tech = ['AEL', 'BYI', 'DTC', 'KRO', 'NPN', 'PRX']
 telco = ['BLU', 'MCG', 'MTN', 'TKG', 'VOD']
 health = ['AIP', 'APN', 'LHC', 'MEI', 'NTC']
-fin = ['ABG', 'AFH', 'AIL', 'BAT', 'CML', 'CPI', 'DSY', 'FSR', 'HCI', 'INL', 'INP', 'JSE', 'KST', 'MTM', 'N91', 'NED', 'NY1', 'OMU', 'PSG', 'QLT', 'REM', 'RMI', 'RNI', 'SBK', 'SLM', 'SNT', 'TCP', 'ZED']
+fin = ['ABG', 'AFH', 'AIL', 'BAT', 'CML', 'CPI', 'DSY', 'FSR', 'HCI', 'INL', 'INP', 'JSE', 'KST', 'MTM', 'N91', 'NED', 'NY1', 'OMU', 'OUT', 'QLT', 'REM', 'RNI', 'SBK', 'SLM', 'SNT', 'TCP']
 real_estate = ['ATT', 'CCO', 'EMI', 'EQU', 'FFA', 'FFB', 'FTB', 'GRT', 'HMN', 'HYP', 'IPF', 'L2D', 'LTE', 'MLI', 'MSP', 'NRP', 'RDF', 'RES', 'SAC', 'SRE', 'SSS', 'VKE']
-cons_disc = ['ADH', 'CFR', 'CLH', 'COH', 'CSB', 'FBR', 'ITE', 'MRP', 'MSM', 'MTA', 'MTH', 'PPH', 'SNH', 'SSU', 'SUI', 'TFG', 'TRU', 'TSG', 'WHL']
+cons_disc = ['ADH', 'CFR', 'COH', 'CSB', 'FBR', 'ITE', 'MRP', 'MTA', 'MTH', 'PPH', 'SNH', 'SSU', 'SUI', 'TFG', 'TRU', 'TSG', 'WHL', 'ZZD']
 cons_stap = ['ANH', 'ARL', 'AVI', 'BID', 'BTI', 'CLS', 'DCP', 'DGH', 'LBR', 'OCE', 'PIK', 'RFG', 'SHP', 'SPP', 'TBS']
 ind = ['AFT', 'BAW', 'BVT', 'GND', 'HDC', 'KAP', 'MNP', 'MUR', 'PPC', 'RBX', 'RLO', 'SPG', 'TXT', 'WBO']
-basic_mat = ['ACL', 'AFE', 'AGL', 'AMS', 'ANG', 'ARI', 'BHG', 'DRD', 'GFI', 'GLN', 'HAR', 'IMP', 'KIO', 'NPH', 'OMN', 'PAN', 'RBP', 'SAP', 'SOL', 'SSW', 'THA']
+basic_mat = ['ACL', 'AFE', 'AGL', 'AMS', 'ANG', 'ARI', 'BHG', 'DRD', 'GFI', 'GLN', 'HAR', 'IMP', 'KIO', 'NPH', 'OMN', 'PAN', 'RBP', 'S32', 'SAP', 'SOL', 'SSW', 'THA']
 energy = ['EXX', 'MKR', 'TGA']
 
 #JSE Codes
